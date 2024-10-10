@@ -1,0 +1,24 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "D:\\PROGRAMACION\\EGG\\JDBC\\IntroduccionYConfiguracion\\vivero_JDBC\\vivero\\lib\\mysql-connector-java-8.0.13.jar"
+  ],
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "localhost",
+      "password": "root",
+      "database": "vivero",
+      "username": "root"
+    }
+  ]
+}

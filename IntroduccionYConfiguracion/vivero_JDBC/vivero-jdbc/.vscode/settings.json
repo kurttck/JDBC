@@ -3,7 +3,7 @@
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "D:\\PROGRAMACION\\EGG\\JDBC\\IntroduccionYConfiguracion\\vivero_JDBC\\vivero\\lib\\mysql-connector-java-8.0.13.jar"
+    "D:\\PROGRAMACION\\EGG\\JDBC\\IntroduccionYConfiguracion\\vivero_JDBC\\viverro\\lib\\mysql-connector-java-8.0.13.jar"
   ],
   "sqltools.connections": [
     {

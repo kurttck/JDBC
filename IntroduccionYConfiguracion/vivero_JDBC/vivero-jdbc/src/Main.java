@@ -7,10 +7,10 @@ import java.sql.SQLException; */
 
 //import java.util.ArrayList;
 
-import entidades.Cliente;
+/* import entidades.Cliente;
 import entidades.Pedido;
 import servicios.ClienteServicio;
-import servicios.PedidoServicio;
+import servicios.PedidoServicio; */
 
 public class Main {
 
@@ -27,13 +27,9 @@ public class Main {
      */
 
     public static void main(String[] args) throws Exception {
-        /*
-         * Connection conn = getConnection();
-         * if (conn != null) {
-         * System.out.println("Connected");
-         * closeConnection(conn);
-         * }
-         */
+
+        Menu menu = new Menu();
+        menu.mostrarMenu();
 
         /*
          * ClienteDAO clientePrueba = new ClienteDAO();
@@ -70,7 +66,7 @@ public class Main {
 
         /* ------------------- SERVICIO ---------------------------- */
 
-        var clienteServicio = new ClienteServicio();
+        /* var clienteServicio = new ClienteServicio(); */
 
         /*
          * Cliente cliente = clienteServicio.crearNuevoCliente(5, "Huancayito Park",
@@ -86,12 +82,15 @@ public class Main {
          * System.out.println(clienteprueba);
          */
 
-        var pedidoServicio = new PedidoServicio();
-
-        Pedido pedidoPrueba = pedidoServicio.crearNuevoPedido(41, "2024-10-09", "2024-12-10", "2024-12-01", "Entregado",
-                "Esta muy bonito el producto", 19);
-
-        System.out.println(pedidoPrueba.getComentarios());
+        /*
+         * var pedidoServicio = new PedidoServicio();
+         * 
+         * Pedido pedidoPrueba = pedidoServicio.crearNuevoPedido(41, "2024-10-09",
+         * "2024-12-10", "2024-12-01", "Entregado",
+         * "Esta muy bonito el producto", 19);
+         * 
+         * System.out.println(pedidoPrueba.getComentarios());
+         */
     }
 
     /*
